@@ -46,7 +46,8 @@ load_vaccination_data <- function() {
       people_vaccinated_per_hundred = c(75, 65, 70, 80, 85),
       people_fully_vaccinated_per_hundred = c(70, 60, 65, 75, 80)
     )
-    return(sample_data)
+    return(vaccination.xlsx)
+    
   })
 }
 # Load the data
@@ -72,7 +73,7 @@ ui <- page_sidebar(
                 selected = head(unique(vaccinations$location), 3)),
     
     sliderInput("top_n", "Show Top N Countries in Overview:",
-                min = 5, max = 30, value = 15, step = 5),
+                min = 2, max = 15, value = 5, step = 2),
     
     hr(),
     
