@@ -1,0 +1,12 @@
+name: DIGITAL_HEALTH_EXAM
+title: DIGITAL_HEALTH_EXAM
+username: mariagoretti1234
+account: mariagoretti1234
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13824571
+bundleId: 9708539
+url: https://mariagoretti1234.shinyapps.io/DIGITAL_HEALTH_EXAM/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
